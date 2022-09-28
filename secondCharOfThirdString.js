@@ -3,9 +3,9 @@ const prompt = require('prompt-sync')({sigint: true});
 let userArray = JSON.parse(prompt("please create an array: "));
 
 
-if(userarray[2 !== undefined && typeof userarray[2 === 'string']{
+if(userArray[2 !== undefined && typeof userArray[2 === 'string']{
 
-let string = userarray[2];
+let string = userArray[2];
 
 if (string.length >= 2{
 
@@ -13,7 +13,7 @@ if (string.length >= 2{
     + string.substring(1,2) + "'.");
 {
     else(
-        console.log("the string has ess thantwo characters");
+        console.log("the string has Less than two characters");
     
 }
 else{
